@@ -29,7 +29,7 @@ func (p *IDMProvider) ExchangeCodeForToken(code string) (string, error) {
 	return "", nil // 返回令牌或错误
 }
 
-func (p *IDMProvider) GetUserInfo(accessToken string) (map[string]interface{}, error) {
+func (p *IDMProvider) GetUserInfo(accessToken string) (string, error) {
 	// 实现获取用户信息的逻辑
-	return nil, nil // 返回用户信息或错误
+	return "", nil // 返回用户信息或错误
 }
